@@ -1,4 +1,8 @@
 /* navigation bar css */
+
+/* future important tasks */ 
+/* find exact hex code of company colors (might be: #1C64F2) */
+/* find company font (might be: sebino) */  
 .landing_navbar_ul {
     list-style-type: none;
     margin: 0;
@@ -9,6 +13,10 @@
     float: left; 
     display: inline;
 }
+.landing_navbar_li_right{
+    float: right; 
+    display: inline;
+}
 .landing_navbar_a {
     display: block; 
     color: black;
@@ -16,11 +24,18 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-.landing_navbar_a_special { 
-    display: block;
-    color: black;
+.landing_navbar_button {
+    background-color: #1C64F2;
+    border: none;
+    color: white;
+    padding: 12px;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    border: 2px solid blue;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+.section1{
+    align-content: center;
 }

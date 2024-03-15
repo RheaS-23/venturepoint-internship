@@ -1,0 +1,26 @@
+/* navigation bar css */
+.landing_navbar_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.landing_navbar_li {
+    float: left; 
+    display: inline;
+}
+.landing_navbar_a {
+    display: block; 
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.landing_navbar_a_special { 
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 2px solid blue;
+}

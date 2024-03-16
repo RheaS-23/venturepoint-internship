@@ -64,3 +64,11 @@ p {
 h1 {
     font-size: 30pt;
 }
+.background {
+    position: relative;
+    color: lightgray;
+    z-index: -1;
+    width: 100%;
+    height: 10%;
+
+}

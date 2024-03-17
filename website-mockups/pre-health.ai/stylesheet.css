@@ -38,18 +38,18 @@
 }
 .section1{
     margin: auto; 
-    width: 50%;
+    width: 75%;
     text-align: center;
 }
 .section2 {
-    margin-right: 50%;
-    width: 50%;
-    padding-left: 5%;
+    width: 40%;
+    float: left;
+    padding-left: 50px;
 }
+
 .section3 {
-    margin-left: 50%;
-    width: 50%;
-    padding-right: 5%;
+    width: 40%;
+    float: right;
 }
 span {
     background-color: rgba(249, 230, 184, 0.91);
@@ -62,7 +62,7 @@ p {
     color: darkslategrey;
 }
 h1 {
-    font-size: 30pt;
+    font-size: 45pt;
 }
 .background {
     position: relative;
@@ -70,5 +70,35 @@ h1 {
     z-index: -1;
     width: 100%;
     height: 10%;
+}
+.pic1 {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.image-stack {
+    position: relative;
+    width: 40%;
+    float: right;
+    display: inline;
+}
+.bottom-image{
+    position: absolute;
+    right: 0; 
+    top: 0; 
+    width: 80%;
+    z-index: -1;
+    padding-top: 40%;
 
+}
+.top-image{
+    padding-top: 20px;
+    padding-right: 20%;
+    width: 80%;
+}
+.stackpic {
+    width: 100%;
+    display: block;
 }
